@@ -128,3 +128,24 @@ section{
     background: white;
     border: 2px solid white;
 }
+
+@media (max-width: 600px){
+    header{
+        flex-direction: column;
+    }
+
+    .navbar{
+        flex-direction: column;
+        font-size: 30px;
+        display: block;
+    }
+
+    section{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home-image img{
+        max-width:100%;
+    }
+}
